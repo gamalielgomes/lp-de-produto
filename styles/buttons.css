@@ -1,7 +1,7 @@
 .btn {
     --btn-bg-color: var(--text-color-primary);
     --btn-color: var(--bg-color);
-    
+
     border: 0;
     display: flex;
     align-items: center;
@@ -9,19 +9,17 @@
     width: fit-content;
     border-radius: .5rem;
     cursor: pointer;
-    
+
     font: var(--fs-button);
-    
+
     background: var(--btn-bg-color);
     color: var(--btn-color);
 }
 
 .btn:hover {
-    --btn-bg-color: linear-gradient(
-        90deg,
-        var(--brand-color-secondary) 0%,
-        var(--brand-color-primary) 100%
-    );
+    --btn-bg-color: linear-gradient(90deg,
+            var(--brand-color-secondary) 0%,
+            var(--brand-color-primary) 100%);
 
     --btn-color: var(--surface-color);
 
@@ -35,7 +33,7 @@
     font-size: 0.875rem;
 }
 
-.btn-md{
+.btn-md {
     padding: .75rem 1.5rem;
     font-size: 1rem;
 }
@@ -63,5 +61,18 @@
         background-clip: text;
         color: transparent;
         position: relative;
+    }
+}
+
+@media (width >=80em) {
+
+    .btn-sm {
+        padding: .75rem 1.5rem;
+        font-size: 1rem;
+    }
+
+    .btn-md {
+        padding: 1rem 2rem;
+        font-size: 1.125rem;
     }
 }
