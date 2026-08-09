@@ -10,6 +10,7 @@ html {
     font-weight: var(--fw-base);
     line-height: 1.6;
     color: var(--text-color-primary);
+    scroll-behavior: smooth;
 }
 
 h1, h2, h3 {
@@ -55,6 +56,10 @@ body {
 img {
     max-width: 100%;
     display: inline-block;
+}
+
+ul {
+    list-style: none;
 }
 
 :root {
