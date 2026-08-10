@@ -7,7 +7,7 @@ Projeto desenvolvido com o objetivo de praticar e aprimorar conceitos de **respo
 
 A página consiste em uma landing page para um aplicativo fictício de música chamado **Zingen**, com foco na adaptação da interface para diferentes tamanhos de tela.
 
-![Preview do projeto](./assets/preview.png)
+![Preview do projeto](https://gamalielgomes.github.io/lp-de-produto/)
 
 ## 🚀 Sobre o projeto
 
